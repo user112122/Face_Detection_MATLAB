@@ -10,6 +10,7 @@
 % you can scane live or scane pictures on your phone as well 
 % with c = 150, we are allowing the system to take 150 pictures 
 % more pictures mean more accuracy 
+% we are only saving the face part of a picture, so we trim pictures to [227 227]
 
 clc
 clear all
@@ -44,7 +45,7 @@ end
 % Select main folder from path with all subfolders of collected data inside it 
 % you can name your network whatever you wish, I have named my network myNet1 
 % add the number of subfolders in fullyconnectedLayer()
-% in place of 'FaceDetection' in line 57, enter your main folders name 
+% in place of 'FaceDetection' in line 58, enter your main folders name 
 
 clc
 clear all
